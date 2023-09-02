@@ -1,0 +1,68 @@
+body {
+	width: 100%;
+	max-width: 1240px;
+	margin: auto;
+	background: linear-gradient(90deg, rgba(240,252,255,1) 20%, rgba(255,255,255,1) 45%, rgba(255,254,254,1) 100%);
+}
+section#main {
+	padding: 0 20px;
+}
+div.flex-sect {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+div.flex-sect > .flex1 {
+	width: 45%;
+}
+div.flex-sect > .flex2 {
+	width: 55%;
+	text-align: center;
+}
+
+#main h1 {
+	font-family: Poppins;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 52.5px;
+	margin-bottom: 48px;
+	color: #000;
+}
+
+#main a {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+	color: #fff;
+	padding: 11px 25px;
+	background-color: #04646B;
+	text-decoration: none;
+	box-shadow: 3px 3px #8CBCC4;
+	position: relative;
+	bottom: 0;
+	transition: bottom 0.3s ease-out;
+}
+#footer p {
+	text-align: center;
+}
+
+/*Animation*/
+
+#main a:hover {
+	bottom: 5px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#main .flex1 {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
