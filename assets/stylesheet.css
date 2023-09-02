@@ -2,9 +2,15 @@ body {
 	width: 100%;
 	max-width: 1240px;
 	margin: auto;
-	background: linear-gradient(90deg, rgba(240,252,255,1) 20%, rgba(255,255,255,1) 45%, rgba(255,254,254,1) 100%);
+	background: linear-gradient(261deg, #FFF8F9 5.52%, #F0FCFF 95.33%);
 }
-section#main {
+
+#header {
+	margin-top: 30px;
+	margin-bottom: -60px;
+}
+
+#main, #header, #footer {
 	padding: 0 20px;
 }
 div.flex-sect {
@@ -20,6 +26,10 @@ div.flex-sect > .flex2 {
 	width: 55%;
 	text-align: center;
 }
+.hero-img {
+	width: 100%;
+	height: auto;
+}
 
 #main h1 {
 	font-family: Poppins;
@@ -29,7 +39,6 @@ div.flex-sect > .flex2 {
 	margin-bottom: 48px;
 	color: #000;
 }
-
 #main a {
 	font-family: Poppins;
 	font-size: 18px;
@@ -44,8 +53,16 @@ div.flex-sect > .flex2 {
 	bottom: 0;
 	transition: bottom 0.3s ease-out;
 }
+
+#footer {
+	margin: 32px 0;
+}
 #footer p {
 	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
 }
 
 /*Animation*/
