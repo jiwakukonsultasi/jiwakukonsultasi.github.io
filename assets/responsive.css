@@ -1,0 +1,40 @@
+/*Desktop only*/
+@media screen and (min-width: 1025px) {
+
+}
+
+/*Mobile and Tablet only*/
+@media screen and (max-width: 1024px) {
+	
+}
+
+/*Tablet only*/
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+	#header {
+		margin-bottom: 0px;
+	}
+}
+
+/*Mobile only*/
+@media screen and (max-width: 768px) {
+	#header {
+		margin-bottom: 30px;
+	}
+	#main h1 {
+		font-size: 28px;
+		line-height: 1.4;
+	}
+}
+
+/*Small Mobile only*/
+@media screen and (max-width: 564px) {
+	.flex-sect {
+		flex-direction: column-reverse !important;
+	}
+	.flex1, .flex2 {
+		width: 100% !important;
+	}
+	.flex1 {
+		margin: 32px 0;
+	}
+}
